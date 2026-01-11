@@ -1,0 +1,105 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+/* TASK 1 */
+h2{
+    text-align: center;
+}
+
+div{
+    width: 200px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.b1{
+    border: 2px solid black;
+}
+
+.b2{
+    border-top: 2px solid red;
+    border-right: 2px dashed blue;
+    border-bottom: 2px dotted green;
+    border-left: 2px double purple;
+}
+
+.b3{
+    border: 2px dashed orange;
+}
+
+.b4{
+    border: 4px double brown;
+}
+
+.b5{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.b6{
+    border: 2px solid black;
+    outline: 2px solid red;
+    outline-offset: 5px;
+}
+
+/* TASK 2 */
+.box-model{
+    width: 320px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: lightblue;
+    box-sizing: border-box;
+}
+
+.box-model p{
+    background-color: lightyellow;
+    margin: 0;
+    padding: 10px;
+}
+
+/* TASK 3 */
+.container-flex{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box{
+    width: 200px;
+    border: 2px solid black;
+    background-color: lightblue;
+}
+
+.padding-box{
+    padding: 20px;
+}
+
+.margin-box{
+    margin: 20px;
+}
+
+/* TASK 4 */
+.container-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+    width: 200px;
+}
+
+.price{
+    color: green;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 10px;
+}
