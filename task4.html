@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Cards</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .card{
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 15px;
+            width: 200px;
+        }
+        .price{
+            color: green;
+            font-weight: bold;
+        }
+        button{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <h3>Product 1</h3>
+        <p class="price">Rs 500</p>
+        <p>It is an automatic car.</p>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="card">
+        <h3>Product 2</h3>
+        <p class="price">Rs 700</p>
+        <p>It is a toy.</p>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="card">
+        <h3>Product 3</h3>
+        <p class="price">Rs 900</p>
+        <p>It is a sword.</p>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="card">
+        <h3>Product 4</h3>
+        <p class="price">Rs 1000</p>
+        <p>It is a cricket bat.</p>
+        <button>Buy Now</button>
+    </div>
+</div>
+
+</body>
+</html>
